@@ -20,13 +20,18 @@
         <label>Tempat lahir :</label>
         <input type="text" name="Tempat lahir" placeholder="Masukkan tempat lahir anda">
     </p>
+    <form action="/action_page.php">
+        <label for="birthday">Tanggal lahir:</label>
+        <input type="date" id="Tanggal lahir" name="tanggal lahir">
+        <input type="submit">
+    </form>
     <p>
         <label>Gender:</label>
-        <input type="radio" name="jenkel" value="perempuan">perempuan
+        <input type="radio" name="jenkel" value="perempuan">Perempuan
         <input type="radio" name="jenkel" value="laki-laki">Laki-laki
     <p>
-        <label>agama :</label>
-        <select name="agama">
+        <label>Agama :</label>
+        <select nama= "Agama">
             <option value="budha">Budha</option>
             <option value="islam">Islam</option>
             <option value="hindu">Hindu</option>
