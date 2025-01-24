@@ -8,7 +8,7 @@
 <body>
 <form action="form4.html" method="POST">
     <fieldset>
-            <legend><h1>Formulir PPDB SMKN 1 BWI"</h1></legend>
+            <legend><h1>Formulir PPDB SMKN 1 BWI</h1></legend>
     <p>
         <label>NISN :</label>
         <input type="text" name="NISN" placeholder="Masukkan nomer nisn">
@@ -16,6 +16,7 @@
     <p>
         <label>Nama :</label>
         <input type="text" name="Nama" placeholder="Masukkan nama lengkap">
+    </p>
     <p>
         <label>Tempat lahir :</label>
         <input type="text" name="Tempat lahir" placeholder="Masukkan tempat lahir anda">
@@ -29,6 +30,7 @@
         <label>Gender:</label>
         <input type="radio" name="jenkel" value="perempuan">Perempuan
         <input type="radio" name="jenkel" value="laki-laki">Laki-laki
+    </p>
     <p>
         <label>Agama :</label>
         <select nama= "Agama">
