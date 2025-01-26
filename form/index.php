@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Biodata</title>
+    <link href="boostrap/css/boostrap.min.css" rel="stylesheet">
+    <script src="boostrap/js/boostrap.min.js"></script>
 </head>
 <body>
 <form action="form4.html" method="POST">
     <fieldset>
             <legend><h1>Formulir PPDB SMKN 1 BWI</h1></legend>
     <p>
-        <label>NISN :</label>
+        <label>NISN:</label>   
         <input type="text" name="NISN" placeholder="Masukkan nomer nisn">
     </p>
     <p>
-        <label>Nama :</label>
+        <label>Nama:</label>
         <input type="text" name="Nama" placeholder="Masukkan nama lengkap">
     </p>
     <p>
-        <label>Tempat lahir :</label>
+        <label>Tempat lahir:</label>
         <input type="text" name="Tempat lahir" placeholder="Masukkan tempat lahir anda">
     </p>
     <form action="/action_page.php">
         <label for="birthday">Tanggal lahir:</label>
         <input type="date" id="Tanggal lahir" name="tanggal lahir">
-        <input type="submit">
     </form>
     <p>
         <label>Gender:</label>
@@ -32,8 +33,8 @@
         <input type="radio" name="jenkel" value="laki-laki">Laki-laki
     </p>
     <p>
-        <label>Agama :</label>
-        <select nama= "Agama">
+        <label>Agama:</label>
+        <select class="form-select" aria-label="Default select example">
             <option value="budha">Budha</option>
             <option value="islam">Islam</option>
             <option value="hindu">Hindu</option>
@@ -42,11 +43,11 @@
         </select>
      </p>
      <p>
-        <p>Alamat :</p>
+        <p>Alamat:</p>
         <textarea name="alamat"cols="50" rows="10"></textarea>
     </p>
     <p>
-        <label>Asal sekolah :</label>
+        <label>Asal sekolah:</label>
         <input type="asal sekolah" name="asal sekolah" placeholder="Masukkan asal sekolah anda">
     </p>
     <p>
@@ -94,9 +95,9 @@
         <input type="checkbox" name="teater">Teater
         <input type="checkbox" name="tari">Tari
     </p>
-    <p>
-        <input type="submit" name="submit" value="Daftar">
-    </p>
+    <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
     </fieldset>
 </form>
 </body>
