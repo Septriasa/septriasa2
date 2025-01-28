@@ -60,6 +60,9 @@
         <option value="BCF">BroadCasting dan PerFilman</option>
         <option value="SP">Seni Pertunjukkan</option>
         <option value="DKV">Desain Komunikasi Visual</option>
+        <option value="PM">Pemasaran</option>
+        <option value="PH">Perhotelan</option>
+        <option value="KL">Kuliner</option>
     </select>
     </p>
     <p>
@@ -72,6 +75,9 @@
         <option value="BCF">BroadCasting dan PerFilman</option>
         <option value="SP">Seni Pertunjukkan</option>
         <option value="DKV">Desain Komunikasi Visual</option>
+        <option value="PM">Pemasaran</option>
+        <option value="PH">Perhotelan</option>
+        <option value="KL">Kuliner</option>
     </select>
     </p>
     <p>
@@ -84,6 +90,9 @@
         <option value="BCF">BroadCasting dan PerFilman</option>
         <option value="SP">Seni Pertunjukkan</option>
         <option value="DKV">Desain Komunikasi Visual</option>
+        <option value="PM">Pemasaran</option>
+        <option value="PH">Perhotelan</option>
+        <option value="KL">Kuliner</option>
     </select>
     </p>
     <p>
