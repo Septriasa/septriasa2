@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Biodata</title>
-    <link href="boostrap/css/boostrap.min.css" rel="stylesheet">
-    <script src="boostrap/js/boostrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-<form action="form4.html" method="POST">
+<form action="proses.php" method="POST">
     <fieldset>
             <legend><h1>Formulir PPDB SMKN 1 BWI</h1></legend>
     <p>
@@ -21,11 +21,11 @@
     </p>
     <p>
         <label>Tempat lahir:</label>
-        <input type="text" name="Tempat lahir" placeholder="Masukkan tempat lahir anda">
+        <input type="text" name="Tempatlahir" placeholder="Masukkan tempat lahir anda">
     </p>
     <form action="/action_page.php">
         <label for="birthday">Tanggal lahir:</label>
-        <input type="date" id="Tanggal lahir" name="tanggal lahir">
+        <input type="date" id="Tanggal lahir" name="Tanggallahir">
     </form>
     <p>
         <label>Gender:</label>
@@ -34,7 +34,7 @@
     </p>
     <p>
         <label>Agama:</label>
-        <select class="form-select" aria-label="Default select example">
+        <select class="form-select"  name="agama" aria-label="Default select example">
             <option value="budha">Budha</option>
             <option value="islam">Islam</option>
             <option value="hindu">Hindu</option>
@@ -48,10 +48,10 @@
     </p>
     <p>
         <label>Asal sekolah:</label>
-        <input type="asal sekolah" name="asal sekolah" placeholder="Masukkan asal sekolah anda">
+        <input type="asal sekolah" name="asalsekolah" placeholder="Masukkan asal sekolah anda">
     </p>
     <p>
-    <select class="form-select" aria-label="Default select example">
+    <select name="Jurusan1" id="">
         <option selected>Pilih Jurusan 1</option>
         <option value="AKL">Akutansi Keuangan Lembaga</option>
         <option value="MPLB">Manajemen Perkantoran Layanan Bisnis</option>
@@ -66,7 +66,7 @@
     </select>
     </p>
     <p>
-    <select class="form-select" aria-label="Default select example">
+    <select name="Jurusan2" id="">
         <option selected>Pilih Jurusan 2</option>
         <option value="AKL">Akutansi Keuangan Lembaga</option>
         <option value="MPLB">Manajemen Perkantoran Layanan Bisnis</option>
@@ -81,7 +81,7 @@
     </select>
     </p>
     <p>
-    <select class="form-select" aria-label="Default select example">
+    <select name="Jurusan3" id="">
         <option selected>Pilih Jurusan 3</option>
         <option value="AKL">Akutansi Keuangan Lembaga</option>
         <option value="MPLB">Manajemen Perkantoran Layanan Bisnis</option>
@@ -105,9 +105,9 @@
         <input type="checkbox" name="tari">Tari
     </p>
     <div class="col-12">
-    <button class="btn btn-primary" type="submit">Submit form</button>
+    <button class="btn btn-primary"  name="PpdbSiswa" type="submit">Submit form</button>
   </div>
-    </fieldset>
+    </fieldset> 
 </form>
 </body>
 </html>
